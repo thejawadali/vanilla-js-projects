@@ -6,3 +6,4 @@
 | 04 | Image Gallery       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/4-image-gallery/)
 | 05 | Simple Counter       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/5-counter/)
 | 06 | Search Field       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/6-search-field/)
+| 07 | Responsive Navbar       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/7-responsive-navbar/)
