@@ -1,0 +1,48 @@
+*{
+  /* box-sizing: border-box; */
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  background: linear-gradient(140deg, rgba(0,58,135,1) 0%, rgba(0,247,255,1) 100%);
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-radius: 999px;
+  box-shadow: 2px 2px 10px #3e3e3e;
+}
+
+.input {
+  font-size: 1.1rem;
+  width: 0px;
+  outline: none;
+  border: none;
+  transition: width 0.2s ease;
+}
+
+
+.search .icon {
+  padding: 2px;
+  cursor: pointer;
+  font-size: 32px;
+  background: transparent;
+  border-radius: 50%;
+} 
+
+.active .input {
+  margin-left: 12px;
+  padding: 2px 4px;
+  display: block;
+  width: 300px;
+}
