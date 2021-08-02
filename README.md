@@ -8,3 +8,4 @@
 | 06 | Search Field       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/6-search-field/)
 | 07 | Responsive Navbar       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/7-responsive-navbar/)
 | 08 | Digital Clock       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/8-digital-clock/)
+| 09 | Digital Clock       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/9-navbar-scroll-effect/)
