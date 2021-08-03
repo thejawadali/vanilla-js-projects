@@ -10,3 +10,4 @@
 | 08 | Digital Clock       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/8-digital-clock/)
 | 09 | Navbar Scroll Effect       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/9-navbar-scroll-effect/)
 | 10 | Random Color Generator       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/10-random-color/)
+| 11 | Login Form       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/11-login-form/)
