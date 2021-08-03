@@ -11,3 +11,4 @@
 | 09 | Navbar Scroll Effect       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/9-navbar-scroll-effect/)
 | 10 | Random Color Generator       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/10-random-color/)
 | 11 | Login Form       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/11-login-form/)
+| 12 | Text Writing Effect       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/12-text-writing-effect/)
