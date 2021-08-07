@@ -13,3 +13,4 @@
 | 11 | Login Form       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/11-login-form/)
 | 12 | Text Writing Effect       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/12-text-writing-effect/)
 | 13 | Toaster       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/13-toaster/)
+| 14 | Calculator       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/14-calculator/)
