@@ -15,4 +15,5 @@
 | 13 | Toaster       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/13-toaster/)
 | 14 | Calculator       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/14-calculator/)
 | 15 | Stop Watch       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/15-stop-watch/)
+| 16 | Shopping List       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/16-shopping-list/)
 

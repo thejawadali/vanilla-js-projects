@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(142deg, rgba(238,255,238,1) 0%, rgba(238,238,255,1) 100%);
+  /* background: #dde9ec; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  min-height: 20rem;
+  padding: 0 1rem;
+  background: rgb(249, 249, 249);
+}
+
+.input-form {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+#input {
+  width: 350px;
+  outline: none;
+  border: none;
+  border-top-left-radius: 10px ;
+  border-bottom-left-radius: 10px ;
+  background: transparent;
+  padding: 0 15px;
+  font-size: 1rem;
+}
+
+
+#add-btn {
+  font-size: 1rem;
+  border: none;
+  padding: 8px 12px;
+  border-top-right-radius: 10px ;
+  border-bottom-right-radius: 10px ;
+  background: linear-gradient(142deg, rgba(238,255,238,1) 0%, rgba(238,238,255,1) 100%);
+  cursor: pointer;
+  transition: background 0.4s, color 0.4s;
+}
+
+#add-btn:hover {
+  color: #fff;
+  background: #333;
+}
+
+#response-msg {
+  font-size: 0.8rem;
+  margin: 4px;
+  border-radius: 3px;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.error-resp {
+  color: rgb(124, 10, 10);
+  background: rgb(255, 205, 205);
+}
+.success-resp {
+  color: rgb(10, 124, 10);
+  background: rgb(205, 255, 205);
+}
+
+.result {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-container {
+  margin: 1rem;
+  border-radius: 10px;
+  background: #fff;
+  overflow-y: scroll;
+  max-height: 20rem;
+  width: 100%;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 1rem;
+  background: transparent;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.list-item:hover{
+  background: #eee;
+}
+
+#list-item-title {
+  flex: 1;
+  padding: 0 5px;
+}
+
+.material-icons {
+  font-size: 20px !important;
+  cursor: pointer;
+  margin: 2px;
+}
+#edit {
+  color: green;
+}
+#delete {
+  color: rgb(204, 0, 0);
+}
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#clear-btn {
+  border: none;
+  color: rgb(124, 10, 10);
+  background: rgb(255, 205, 205);
+  width: 80%;
+  padding: 5px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#clear-btn:active {
+  background: rgb(255, 190, 190);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #666;
+  border-radius: 50%;
+}
