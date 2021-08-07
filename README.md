@@ -17,4 +17,5 @@
 | 15 | Stop Watch       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/15-stop-watch/)
 | 16 | Shopping List       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/16-shopping-list/)
 | 17 | Contacts List       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/17-contact-list/)
+| 18 | Random Quotes       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/18-quotes/)
 
