@@ -14,3 +14,5 @@
 | 12 | Text Writing Effect       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/12-text-writing-effect/)
 | 13 | Toaster       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/13-toaster/)
 | 14 | Calculator       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/14-calculator/)
+| 15 | Stop Watch       | [Checkout](https://thejawadali.github.io/vanilla-js-projects/15-stop-watch/)
+
