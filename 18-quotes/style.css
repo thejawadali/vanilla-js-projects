@@ -47,6 +47,10 @@ body {
   text-align: right;
 }
 
+#btn:active {
+  background: #008545;
+}
+
 #btn {
   font-size: 1.3rem;
   border: none;
