@@ -20,3 +20,4 @@
 | 18 | Random Quotes       | [See It Live](https://thejawadali.github.io/vanilla-js-projects/18-quotes/)
 | 19 | Tic Tac Toe       | [See It Live](https://thejawadali.github.io/vanilla-js-projects/19-tictactoe/)
 | 20 | Guess the Color Game       | [See It Live](https://thejawadali.github.io/vanilla-js-projects/20-guess-the-color/)
+| 21 | Currency Converter       | [See It Live](https://thejawadali.github.io/vanilla-js-projects/21-currency-converter/)
