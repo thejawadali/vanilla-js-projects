@@ -7,7 +7,7 @@ const circles = document.getElementsByClassName( "circle" )
 const replayBtn = document.querySelector( ".reply-btn" )
 const resultScreen = document.querySelector(".result-screen")
 const resultScreenScore = document.querySelector(".result")
-const totalTime = 1
+const totalTime = 10
 const totalRounds = 20
 let currentRound = 0
 let score = 0
@@ -28,7 +28,7 @@ function startTimer () {
   }
 }
 
-// setInterval( startTimer, 100 )
+setInterval( startTimer, 100 )
 
 
 
