@@ -54,7 +54,7 @@ body {
 
 @media (max-width: 700px) {
   .headings h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .headings p {
     font-size: 1rem;
