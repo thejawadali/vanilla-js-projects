@@ -44,5 +44,11 @@ body {
   margin-left: 12px;
   padding: 2px 4px;
   display: block;
-  width: 300px;
+  width: 250px;
+}
+
+@media screen and (min-width: 480px) {
+  .active .input {
+    width: 300px;
+  }
 }
