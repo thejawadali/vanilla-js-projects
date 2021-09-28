@@ -5,10 +5,10 @@ const colorRGB = document.querySelector( "#color-rgb" )
 const container = document.querySelector( ".color-container" )
 const circles = document.getElementsByClassName( "circle" )
 const replayBtn = document.querySelector( ".reply-btn" )
-const resultScreen = document.querySelector(".result-screen")
-const resultScreenScore = document.querySelector(".result")
+const resultScreen = document.querySelector( ".result-screen" )
+const resultScreenScore = document.querySelector( ".result" )
 const totalTime = 10
-const totalRounds = 20
+const totalRounds = 10
 let currentRound = 0
 let score = 0
 let remainingTime = totalTime
@@ -61,7 +61,7 @@ function AssignColors () {
         }
       }
     }
-  }else {
+  } else {
     // show game over panel
     resultScreen.style.display = "flex"
     resultScreenScore.textContent = score

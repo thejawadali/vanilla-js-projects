@@ -54,7 +54,7 @@ header > div > h3 {
   display: inline-block;
   background: #333;
   border-radius: 3rem 1rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1.2rem;
   font-size: 0.6rem;
 }
 
@@ -74,13 +74,12 @@ header > div > h3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 2rem 0;
-  width: 30rem;
+  width: 95%;
 }
 
 .circle {
-  width: 6rem;
-  height: 6rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background: red;
   border-radius: 50%;
   border: 2px solid #fff;
@@ -137,12 +136,44 @@ header > div > h3 {
   border-radius: 1rem;
 }
 
+@media screen and (min-width: 500px) {
+  .color-circles {
+    margin: 2rem 0;
+    width: 30rem;
+  }
+  .circle {
+    width: 5.3rem;
+    height: 5.3rem;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .color-container > div {
+    padding: 1rem 1.6rem;
+  }
+  .color-container .heading {
+    letter-spacing: 0.5rem;
+  }
+  .color-container #color-rgb {
+    font-size: 2.5rem;
+  }
+
+  .circle {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+
+
 @media screen and (min-width: 900px) {
   header {
     width: 70%;
   }
   .color-container > div {
     font-size: 1rem;
+    padding: 1rem 2rem;
   }
 
   .color-container .heading {
