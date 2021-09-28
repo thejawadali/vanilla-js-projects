@@ -8,8 +8,8 @@
 body {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(142deg, rgba(238,255,238,1) 0%, rgba(238,238,255,1) 100%);
-  /* background: #dde9ec; */
+  background: rgb(46,189,197);
+  background: linear-gradient(48deg, rgba(46,189,197,1) 0%, rgba(48,35,114,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@ body {
 .container {
   background: #fff;
   border-radius: 10px;
-  width: 30rem;
+  width: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +37,7 @@ body {
 }
 
 #input {
-  width: 350px;
+  width: 250px;
   outline: none;
   border: none;
   border-top-left-radius: 10px ;
@@ -54,14 +54,16 @@ body {
   padding: 8px 12px;
   border-top-right-radius: 10px ;
   border-bottom-right-radius: 10px ;
-  background: linear-gradient(142deg, rgba(238,255,238,1) 0%, rgba(238,238,255,1) 100%);
+  background: rgb(46,189,197);
+  background: linear-gradient(48deg, rgba(46,189,197,1) 0%, rgba(48,35,114,1) 100%);
+  color: #fff;
   cursor: pointer;
-  transition: background 0.4s, color 0.4s;
+  transition: 0.5s;
 }
 
 #add-btn:hover {
-  color: #fff;
-  background: #333;
+  background: rgb(46,189,197);
+  background: linear-gradient(48deg, rgba(48,35,114,1) 0%, rgba(46,189,197,1) 100%);
 }
 
 #response-msg {
@@ -153,4 +155,13 @@ body {
   height: 10px;
   background: #666;
   border-radius: 50%;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 30rem;
+  }
+  #input {
+    width: 350px;
+  }
 }
