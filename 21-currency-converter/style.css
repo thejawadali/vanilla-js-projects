@@ -25,8 +25,9 @@ body {
 
 .main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .main > div {
@@ -51,11 +52,25 @@ body {
 }
 
 .result {
-  margin: 1rem 0;  
+  margin: 1rem 0; 
+  font-size: 1.5rem;
 }
 
 #swap-btn {
   color: #333;
-  margin-top: 2.8rem;
   cursor: pointer;
+}
+
+
+@media screen and (min-width: 700px) {
+  .main {
+    flex-direction: row;
+  }
+  #swap-btn {
+    margin-top: 2.8rem;
+  }
+  .result {
+    font-size: 2rem;
+  }
+
 }
