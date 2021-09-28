@@ -58,6 +58,7 @@ body {
 
 #swap-btn {
   color: #333;
+  -webkit-tap-highlight-color: transparent;
   cursor: pointer;
 }
 
